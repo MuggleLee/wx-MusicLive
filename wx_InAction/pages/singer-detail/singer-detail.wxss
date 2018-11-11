@@ -1,0 +1,61 @@
+/* pages/top-music/top-music.wxss */
+.all{
+  background-color:  rgba(0, 0, 0, 0.76);
+}
+
+.title {
+  text-align: center;
+  padding-top: 30rpx;
+}
+
+.head {
+  /* z-index: -1; */
+}
+
+.img {
+  width: 100%;
+  height: 600rpx;
+}
+
+.randomButton {
+  size: 100px;
+  border: 20rpx solid;
+  border-radius: 100rpx;
+  color: yellowgreen;
+  position: absolute;
+  top: 480rpx;
+  left: 140rpx;
+}
+
+.random {
+  font-weight: bolder;
+  color: yellow;
+  font-size: 34rpx;
+  padding: 0rpx 92rpx 0rpx 92rpx;
+}
+
+.filter {
+  width: 100%;
+  height: 600rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  background: rgba(7, 17, 27, 0.4);
+}
+.songList{
+  padding: 20rpx 50rpx 20rpx 50rpx;
+}
+.singerAndAblum{
+  color: gray;
+  font-size: 24rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 10rpx;
+}
+.songList{
+  font-size: 30rpx;
+  color: white;
+}

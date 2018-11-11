@@ -1,0 +1,138 @@
+page {
+  background-color: rgba(22, 22, 22, 0.89);
+}
+
+.search-view {
+  padding: 20rpx;
+  display: flex;
+}
+
+.search-text {
+  border: 2px solid;
+  border-radius: 20rpx;
+  width: 100%;
+  background-color: rgba(99, 91, 91, 0.719);
+}
+
+.search-placeholder {
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  color: orange;
+}
+
+.icon-search {
+  position: absolute;
+  right: 40rpx;
+  top: 20rpx;
+}
+
+.search-img {
+  position: absolute;
+  z-index: 1;
+  top: 0rpx;
+  padding: 30rpx;
+  left: 650rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.banner-swiper{
+  height: 300rpx;
+}
+
+.img {
+  width: 100%;
+  height: 300rpx;
+}
+
+.hot-music-album-recommend {
+  display: flex;
+  padding: 0 30rpx 0rpx 30rpx ;
+}
+
+.hot-music-album-recommend-text {
+  font-size: 30rpx;
+  padding: 20rpx;
+  text-align: center;
+  color: orange;
+}
+
+.hot-music-recommend-list {
+  padding: 30rpx;
+  display: flex;
+}
+
+.hot-music-recommend-text {
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  text-align: center;
+  color: orange;
+}
+
+.hot-music-recommend-image {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.description {
+  font-size: 26rpx;
+  position: relative;
+  top: 100rpx;
+  color: grey;
+}
+
+.author {
+  color: white;
+  font-size: 32rpx;
+}
+
+.album-img {
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.album-songList  {
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 10rpx;
+}
+
+.album-right {
+  /* -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center; */
+  width: 100%;
+  justify-content: center;
+  padding: 40rpx 20px 0 20rpx;
+  height: 200rpx;
+  overflow: hidden;
+  background: #333;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.description {
+  font-size: 28rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: grey;
+}
+
+.list-right {
+  width: 100%;
+  overflow: hidden;
+   padding: 10rpx 20rpx;
+  height: 220rpx;
+  background: #333;
+  color: rgba(255, 255, 255, 0.3);
+}

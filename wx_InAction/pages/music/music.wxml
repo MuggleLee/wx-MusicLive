@@ -1,0 +1,42 @@
+<view>
+  <!-- 头部搜索部分 -->
+  <view class='search-view' bindtap='goSearch'>
+    <input type='text' class='search-text' placeholder="输入歌手或歌曲名搜索" placeholder-class='search-placeholder'></input>
+  </view>
+  <!-- banner滚动 -->
+  <view class="slider-wrapper">
+    <swiper class='banner-swiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval='{{interval}}'>
+      <swiper-item wx:for="{{slider}}" wx:for-item="img" class="banner-img">
+        <image src='{{img.picUrl}}' class='img'></image>
+      </swiper-item>
+    </swiper>
+    <view class='hot-music-album-recommend-text'>
+      热门榜单推荐
+    </view>
+    <view class='hot-music-album-recommend' wx:for="{{albumList}}" wx:for-index="index" bindtap='getAlbum' data-item='{{item}}'>
+      <view class='album-left'>
+        <image class='album-img' src='{{item.picUrl}}'></image>
+      </view>
+      <view class='album-right'>
+        <view class='album-songList' wx:for="{{item.songList}}" wx:for-item="songList">
+          {{index+1}}. {{songList.songname}}-{{songList.singername}}
+        </view>
+      </view>
+    </view>
+
+    <view class='hot-music-recommend'>
+      <view class='hot-music-recommend-text'>
+        热门歌单推荐
+      </view>
+      <view class='hot-music-recommend-list' wx:for="{{songList}}">
+        <view class='list-left'>
+          <image src='{{item.picUrl}}' class='hot-music-recommend-image'></image>
+        </view>
+        <view class='list-right'>
+          <view class='author'>{{item.songListAuthor}}</view>
+          <view class='description'>{{item.songListDesc}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

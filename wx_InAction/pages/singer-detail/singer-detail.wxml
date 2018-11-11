@@ -1,0 +1,20 @@
+<view class='all'>
+  <view class='head'>
+    <view>
+      <image src='{{singerPic}}' class='img'></image>
+      <view class="filter" ref="filter"></view>
+    </view>
+    <!-- <button class="randomButton" plain="true" size='mini' type='primary'>
+      <text class='random'>随机播放全部</text>
+    </button> -->
+  </view>
+  <view class='body'>
+    <view wx:for="{{songList}}" wx:for-index="index" class='songList' data-txt='{{item.musicData.songmid}}' data-index='{{index}}'  bindtap='selectSong'>
+      <view>{{item.musicData.songname}}</view>
+      <view class='singerAndAblum'>
+        <text class='singer'>{{item.musicData.singer[0].name}}</text>-
+        <text>{{item.musicData.albumname}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,77 @@
+.page {
+  background-color: rgba(22, 22, 22, 0.89);
+  font-size: 24rpx;
+}
+
+.main{
+  color: white;
+}
+
+.search-view {
+  padding: 20rpx;
+  display: flex;
+}
+
+.search-text {
+  border: 2px solid;
+  border-radius: 20rpx;
+  width: 100%;
+  background-color: rgba(99, 91, 91, 0.719);
+}
+
+.search-placeholder {
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  color: orange;
+}
+
+.hot-search{
+ padding: 0 0 10rpx 20rpx;
+ font-size: 30rpx;
+}
+
+.hot-search-item {
+  padding: 6rpx 20rpx;
+  border: 1px solid #ffcd32;
+  margin-right: 20rpx;
+  border-radius: 20rpx;
+  margin-top: 10rpx;
+}
+
+.hot-search-for {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10rpx;
+}
+
+.history-search{
+  padding-top: 20rpx;
+}
+
+.search-result-wrapper {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 95rpx;
+    background: #222;
+    padding: 0 50rpx;
+    font-size: 13px;
+    color:rgba(255,255,255,0.5);
+}
+
+.search-result-wrapper .singer-wrapper .item{
+    height: 100rpx;
+    line-height: 100rpx;
+    display: flex;
+    padding: 10rpx 0;
+}
+.search-result-wrapper .singer-wrapper .image{
+    height: 90rpx;
+    width: 90rpx;
+    border-radius: 100%;
+    margin-right: 30rpx;
+}
+.search-result-wrapper .song-wrapper .item {
+    height: 70rpx;
+    line-height: 70rpx;
+}

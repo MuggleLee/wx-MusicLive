@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/music/music",
+    "pages/search/search",
+    "pages/top-music/top-music",
+    "pages/logs/logs",
+    "pages/singer/singer",
+    "pages/singer-detail/singer-detail",
+    "pages/my/my",
+    "pages/player/player"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#919191",
+    "selectedColor": "#ffcd32",
+    "backgroundColor": "#333",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/music/music",
+        "text": "推荐",
+        "iconPath": "images/home-1.png",
+        "selectedIconPath": "images/home-2.png"
+      },
+      {
+        "pagePath": "pages/player/player",
+        "text": "正在播放",
+        "iconPath": "images/rank-1.png",
+        "selectedIconPath": "images/rank-2.png"
+      },
+      {
+        "pagePath": "pages/singer/singer",
+        "text": "热门歌手",
+        "iconPath": "images/singer-1.png",
+        "selectedIconPath": "images/singer-2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-1.png"
+      }
+    ]
+  }
+}
